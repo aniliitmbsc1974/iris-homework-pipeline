@@ -1,3 +1,7 @@
-joblib==1.5.2
-pandas==2.3.3
-scikit_learn==1.7.2
+joblib
+pandas
+scikit_learn
+gcsfs
+dvc[gcs]
+pytest
+cml
