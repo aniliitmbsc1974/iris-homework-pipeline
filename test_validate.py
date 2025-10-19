@@ -1,0 +1,31 @@
+import unittest
+import joblib
+import pandas as pd
+from sklearn.metrics import accuracy_score
+from DropColumns import DropColumns
+
+class EvaluateModel(unittest.TestCase): 
+    model_path =  'models/model.joblib'
+    data_path = 'data/iris_test.csv'
+    model_iris = None
+    dat_iris = None
+
+    def setUp(self):
+        self.model_iris = joblib.load(self.model_path)
+        self.data_iris = pd.read_csv(self.data_path)
+
+    def validate(self):
+        X_eval = self.data_iris 
+        y_eval = self.data_iris['species']
+        preds = self.model_iris.predict(X_eval)
+        acc = accuracy_score(y_eval, preds)
+        print(f"Accuracy: {acc}")
+        return acc
+
+    def test_validate_accuracy(self):
+        eval_acc = self.validate()
+        assert eval_acc > 0.9
+
+if __name__ == '__main__':
+    unittest.main()
+
