@@ -34,7 +34,6 @@ jobs:
       - name: Install Dependencies
         run: 
               pip install -r requirements.txt
-              pip install dvc[gcs] pytest cml
       - name: Pull data and model from dvc
         run:  |
               dvc pull
