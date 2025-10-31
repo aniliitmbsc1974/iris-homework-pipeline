@@ -6,13 +6,13 @@ from DropColumns import DropColumns
 import mlflow.pyfunc
 
 class EvaluateModel(unittest.TestCase): 
-    model_uri =  'models/model.joblib'
+    model_uri =  'models/iris-model/Production'
     data_path = 'data/iris_data.csv'
     model_iris = None
     dat_iris = None
 
     def setUp(self):
-        self.model_iris = joblib.load(self.model_path)
+        self.model_iris = mlflow.pyfunc.load_model(self.model_uri)
         self.data_iris = pd.read_csv(self.data_path)
 
     def evaluate(self):
