@@ -9,7 +9,7 @@ pytest==8.4.2
 dvc-gs==3.0.2
 asyncssh==2.21.1
 shtab==1.7.0
-platformdirs==4.4.0
+platformdirs==3.1.1
 orjson==3.11.0
 tqdm==4.67.0
 sqltrie==0.11.1
