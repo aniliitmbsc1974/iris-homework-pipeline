@@ -1,6 +1,8 @@
 pip==24.0
 joblib==1.5.2
 mlflow==3.5.1
+uvloop==0.21
+uvicorn==0.35.0
 pandas==2.3.3
 scikit_learn==1.7.2
 pytest==8.4.2
