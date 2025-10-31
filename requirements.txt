@@ -1,3 +1,4 @@
+pip==24.0
 joblib==1.5.2
 mlflow==3.5.1
 pandas==2.3.3
