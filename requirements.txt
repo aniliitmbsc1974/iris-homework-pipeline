@@ -60,7 +60,6 @@ fastapi==0.116.2
 fastavro==1.12.1
 fastjsonschema==2.21.2
 fastrlock==0.8.3
-feast==0.54.0
 filelock==3.19.1
 fissix==24.4.24
 fonttools==4.59.2

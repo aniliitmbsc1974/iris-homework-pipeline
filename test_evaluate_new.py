@@ -3,10 +3,9 @@ import joblib
 import pandas as pd
 from sklearn.metrics import accuracy_score
 from DropColumns import DropColumns
-import mlflow.pyfunc
 
 class EvaluateModel(unittest.TestCase): 
-    model_uri =  'models/model.joblib'
+    model_path =  'models/model.joblib'
     data_path = 'data/iris_data.csv'
     model_iris = None
     dat_iris = None
