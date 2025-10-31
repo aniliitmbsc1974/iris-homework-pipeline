@@ -138,8 +138,8 @@ jupyterlab_widgets==3.0.15
 keyring==25.6.0
 keyrings.google-artifactregistry-auth==1.1.2
 kfp==2.14.6
-kfp-pipeline-spec==2.14.0
-kfp-server-api==2.14.3
+kfp-pipeline-spec==2.14.3
+kfp-server-api==2.14.6
 kiwisolver==1.4.9
 kombu==5.5.4
 kubernetes==30.1.0
