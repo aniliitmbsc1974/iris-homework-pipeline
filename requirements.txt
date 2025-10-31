@@ -200,6 +200,7 @@ watchfiles==1.1.0
 wcwidth==0.2.14
 webencodings==0.5.1
 websockets==15.0.1
+wheel==0.45.1
 yarg==0.1.9
 yarl==1.22.0
 zc.lockfile==4.0
