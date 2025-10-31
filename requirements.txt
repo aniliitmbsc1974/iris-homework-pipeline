@@ -17,5 +17,8 @@ six==1.16.0
 amqp==5.3.0
 kombu==5.5.3
 gto==1.8.0
-
-
+celery==5.5.2
+billiard==4.2.1
+dvc-task==0.40.1
+dvc-objects==5.1.1
+dvc-data==3.16.1
