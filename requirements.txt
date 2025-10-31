@@ -10,4 +10,5 @@ dvc-gs==3.0.2
 asyncssh==2.21.1
 shtab==1.7.0
 platformdirs==4.4.0
+orjson==3.11.0
 
