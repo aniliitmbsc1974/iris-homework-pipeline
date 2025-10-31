@@ -8,4 +8,6 @@ scikit_learn==1.7.2
 pytest==8.4.2
 dvc-gs==3.0.2
 asyncssh==2.21.1
+shtab==1.7.0
+platformdirs==4.4.0
 

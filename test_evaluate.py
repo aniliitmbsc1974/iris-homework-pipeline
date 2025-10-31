@@ -6,7 +6,7 @@ from DropColumns import DropColumns
 import mlflow.pyfunc
 
 class EvaluateModel(unittest.TestCase): 
-    model_uri =  'models:/iris-model/iris_model_dt'
+    model_uri =  'models:/iris-data/iris_model_dt'
     data_path = 'data/iris_data.csv'
     model_iris = None
     dat_iris = None
