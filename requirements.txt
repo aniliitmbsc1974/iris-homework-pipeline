@@ -6,7 +6,6 @@ uvicorn==0.35.0
 pandas==2.3.3
 scikit_learn==1.7.2
 pytest==8.4.2
-dvc-gs==3.0.2
 asyncssh==2.21.1
 shtab==1.7.0
 platformdirs==3.1.1
@@ -22,4 +21,7 @@ billiard==4.2.1
 dvc-task==0.40.1
 dvc-objects==5.1.1
 dvc-data==3.16.0
+dvc==3.63.0
+dvc-gs==3.0.2
+asyncssh==2.21.1
 google-cloud-storage==3.4.1
