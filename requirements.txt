@@ -29,4 +29,8 @@ urllib3==2.4.0
 anyio==4.10.0
 starlette==0.49.2
 sqlparse==0.5.2
-cml
+smmap==5.0.1
+scmrepo==3.5.1
+scipy==1.16.2
+sqlalchemy==2.0.43
+cml==0.0.1
