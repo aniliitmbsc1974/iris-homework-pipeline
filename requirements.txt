@@ -37,4 +37,5 @@ psutil==7.1.2
 numpy==2.3.4
 sqlalchemy==2.0.43
 cloud-ml-common==0.0.2
+google-cloud-aiplatform==1.120.0
 cml==0.0.1
