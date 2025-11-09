@@ -22,7 +22,8 @@ jobs:
   test_model:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+    env:
+     MLFLOW_TRACKING_URI: http://39.113.117.129:8100
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
