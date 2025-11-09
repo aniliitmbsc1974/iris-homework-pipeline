@@ -42,14 +42,15 @@ jobs:
               dvc pull
       - name: Run tests
         run:  |
-              pytest --maxfail=1 --disable-warnings -q > results.txt
+              python -m test_evaluate 2>&1 > test_output.txt
       - name: post CML Report
         env:  
               REPO_TOKEN: ${{ secrets.GITHUB_TOKEN}}
         run:  |
               echo "## Test Report" > report.md
-              cat results.txt >> report.md
-              cml comment create report.md
+              cat test_output.txt >> report.md
+              cat metrics.csv >> report.md
+              cml comment create --publish report.md
         
               
 
